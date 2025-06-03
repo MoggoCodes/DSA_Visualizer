@@ -1,0 +1,4 @@
+/Users/moggo/Projects/DSA_Visualizer/build/CMakeFiles/dsa_tui.dir
+/Users/moggo/Projects/DSA_Visualizer/build/CMakeFiles/run_tests.dir
+/Users/moggo/Projects/DSA_Visualizer/build/CMakeFiles/edit_cache.dir
+/Users/moggo/Projects/DSA_Visualizer/build/CMakeFiles/rebuild_cache.dir
