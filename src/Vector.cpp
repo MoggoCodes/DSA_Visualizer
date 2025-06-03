@@ -1,5 +1,7 @@
 #include "Vector.hpp"
 #include <cstring>
+#include <iostream>
+#include <iomanip>
 
 // Constructor
 Vector::Vector(size_t initial_capacity) 

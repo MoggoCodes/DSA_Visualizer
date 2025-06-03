@@ -1,5 +1,6 @@
 #include "Vector.hpp"
 #include <iostream>
+#include <limits>
 
 void printMenu() {
     std::cout << "\nVector Operations:\n"

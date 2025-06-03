@@ -1,5 +1,7 @@
 #pragma once
 #include <string>
+#include <stdexcept>
+#include <cstddef>
 
 class Vector {
 public:
