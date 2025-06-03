@@ -27,19 +27,25 @@ A C++ project that implements and visualizes common data structures. Currently f
 
 ## Building the Project
 
-The project uses CMake for building. A convenient build script is provided:
+The project now uses Make for building. Here are the available commands:
 
 ```bash
 # Build the TUI (Terminal User Interface) version
-./build.sh
+make
 
 # Build and run tests
-./build.sh test
+make test
+
+# Install the executable (requires sudo)
+make install
+
+# Clean build files
+make clean
 ```
 
 ### Requirements
 - C++17 compatible compiler
-- CMake 3.10 or higher
+- GNU Make
 
 ### Project Structure
 ```
@@ -47,11 +53,12 @@ DSA_Visualizer/
 ├── include/
 │   └── Vector.hpp       # Vector class declaration
 ├── src/
-│   └── Vector.cpp       # Vector implementation
+│   ├── Vector.cpp      # Vector implementation
+│   └── tui.cpp         # Terminal UI implementation
 ├── tests/
-│   └── vector_test.cpp  # Comprehensive test suite
-├── CMakeLists.txt      # Build configuration
-└── build.sh            # Build script
+│   └── vector_test.cpp # Comprehensive test suite
+├── Makefile           # Build configuration
+└── ReadMe.md          # This file
 ```
 
 ## Example Usage
@@ -84,6 +91,5 @@ The project includes a comprehensive test suite covering:
 
 Run tests using:
 ```bash
-./build.sh test
-./build/vector_test
+make test
 ```
