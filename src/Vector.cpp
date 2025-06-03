@@ -1,7 +1,4 @@
 #include "Vector.hpp"
-#include <algorithm>
-#include <iostream>
-#include <iomanip>
 #include <cstring>
 
 // Constructor

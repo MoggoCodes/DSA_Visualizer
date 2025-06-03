@@ -1,6 +1,5 @@
 #pragma once
 #include <string>
-#include <stdexcept>
 
 class Vector {
 public:
@@ -42,7 +41,7 @@ private:
     int* data_;            // Dynamic array
     size_t size_;         // Current number of elements
     size_t capacity_;     // Current capacity
-    std::string currentOperation;
+    mutable std::string currentOperation;  // Mutable to allow modification in const functions
     
     // Helper methods
     void resize(size_t new_capacity);
